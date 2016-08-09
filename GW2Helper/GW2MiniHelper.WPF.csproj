@@ -106,10 +106,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Page Include="ResourcesMain.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -133,10 +129,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resources\773783.png" />
+    <Content Include="resources\button.png" />
+    <Content Include="resources\kot.png" />
+    <Content Include="resources\kot2.png" />
+    <Content Include="resources\tarir.png" />
+    <Content Include="resources\tequatl.png" />
     <None Include="37443.cur" />
-    <Content Include="button.png" />
     <Content Include="gw2LOGO.ico" />
-    <Content Include="tarir.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GW2Helper.ButtonLogic\GW2MiniHelper.ButtonLogic.csproj">

@@ -18,7 +18,7 @@
         </LinearGradientBrush>
     </Window.Resources>
     <Window.Background>
-        <ImageBrush ImageSource="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/kot.png" />
+        <ImageBrush ImageSource="resources/kot.png" />
     </Window.Background>
     <Grid HorizontalAlignment="Left" Height="199" Margin="10,10,0,0" VerticalAlignment="Top" Width="193">
         <Grid.RowDefinitions>
@@ -26,9 +26,9 @@
             <RowDefinition Height="349*" />
         </Grid.RowDefinitions>
         <Image x:Name="Image" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="54"
-               Source="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/tarir.png" Grid.Row="1" />
+               Source="/resources/tarir.png" Grid.Row="1" />
         <Image x:Name="ImageCopy" HorizontalAlignment="Left" Height="54" Margin="0,66,0,0" Grid.Row="1"
-               VerticalAlignment="Top" Width="54" Source="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/tequatl.png" />
+               VerticalAlignment="Top" Width="54" Source="/resources/tequatl.png" />
         <Label x:Name="Label" Content="Active for: 45:00" HorizontalAlignment="Left" Margin="61,6,0,0" Grid.Row="1"
                VerticalAlignment="Top" Height="44" Width="126" Background="{x:Null}" Foreground="#FF00BDBD"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"
@@ -43,7 +43,7 @@
                 <DropShadowEffect ShadowDepth="2" />
             </Button.Effect>
             <Button.Background>
-                <ImageBrush ImageSource="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/button.png" Stretch="None" />
+                <ImageBrush ImageSource="resources/button.png" Stretch="None" />
             </Button.Background>
         </Button>
         <Button x:Name="ButtonCopy" Content="My notepad" HorizontalAlignment="Left" Margin="97,138,0,37" Width="90"
@@ -52,7 +52,7 @@
                 <DropShadowEffect ShadowDepth="2" />
             </Button.Effect>
             <Button.Background>
-                <ImageBrush ImageSource="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/button.png" Stretch="None" />
+                <ImageBrush ImageSource="resources/button.png" Stretch="None" />
             </Button.Background>
         </Button>
         <Label x:Name="Label1" Content="X + Click to close" HorizontalAlignment="Center" Margin="61,0,63,0"
@@ -79,14 +79,14 @@
                 <DropShadowEffect ShadowDepth="3" Direction="285" Opacity="0.85" />
             </TextBox.Effect>
             <TextBox.Background>
-                <ImageBrush ImageSource="G:\GW2_OVERHELPER\GW2Helper\GW2Helper\kot2.png" />
+                <ImageBrush ImageSource="resources/kot2.png" />
             </TextBox.Background>
         </TextBox>
         <Button x:Name="ButtonCopy1" Content="Save" HorizontalAlignment="Left" Margin="58,162,0,18" Width="75"
                 BorderThickness="0" Grid.Row="1" FontSize="10.667" Opacity="0.8" Padding="11,0,11,1"
                 Click="button_Copy1_Click" Visibility="Hidden">
             <Button.Background>
-                <ImageBrush ImageSource="file:///G:/GW2_OVERHELPER/GW2Helper/GW2Helper/button.png" Stretch="None" />
+                <ImageBrush ImageSource="resources/button.png" Stretch="None" />
             </Button.Background>
         </Button>
     </Grid>
