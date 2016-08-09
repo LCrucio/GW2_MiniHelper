@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.WPF", "GW2Helper\GW2MiniHelper.WPF.csproj", "{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.TimerLogic", "TimerLogic\GW2MiniHelper.TimerLogic.csproj", "{3F724D98-CDB9-40BB-A423-84890824339D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.TimerLogicTests", "GW2Helper.TimerLogicTests\GW2MiniHelper.TimerLogicTests.csproj", "{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.ButtonLogic", "GW2Helper.ButtonLogic\GW2MiniHelper.ButtonLogic.csproj", "{11702108-6656-4938-AD04-324040981DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F724D98-CDB9-40BB-A423-84890824339D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F724D98-CDB9-40BB-A423-84890824339D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F724D98-CDB9-40BB-A423-84890824339D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F724D98-CDB9-40BB-A423-84890824339D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11702108-6656-4938-AD04-324040981DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11702108-6656-4938-AD04-324040981DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11702108-6656-4938-AD04-324040981DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11702108-6656-4938-AD04-324040981DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
