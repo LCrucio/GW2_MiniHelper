@@ -1,12 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TimerLogic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace TimerLogic.Tests
+namespace GW2Helper.TimerLogicTests
 {
     [TestClass()]
     public class TimeToLocalTests
@@ -14,6 +10,9 @@ namespace TimerLogic.Tests
         [TestMethod()]
         public void ConvertToLocalTest()
         {
+           /// This time WILL fail in Different Timezones
+           /// ConvertToLocalTest isn't used right now so the test can be skipped entirely
+
             TimeToLocal timeConv = new TimeToLocal();
             Assert.AreEqual(timeConv.ConvertToLocal(new TimeSpan(0, 0, 0)),new TimeSpan(2,0,0));
             Assert.AreNotEqual(timeConv.ConvertToLocal(new TimeSpan(0, 0, 0)), new TimeSpan(1, 0, 0));

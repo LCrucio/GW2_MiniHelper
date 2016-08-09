@@ -36,7 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -51,15 +53,23 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ColorResolverTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeDBTests.cs" />
     <Compile Include="TimeToLocalTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GW2Helper\GW2MiniHelper.WPF.csproj">
+      <Project>{8A9BABBC-C85C-46EA-9D01-ABCB8C43B6EB}</Project>
+      <Name>GW2MiniHelper.WPF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TimerLogic\GW2MiniHelper.TimerLogic.csproj">
       <Project>{3F724D98-CDB9-40BB-A423-84890824339D}</Project>
       <Name>GW2MiniHelper.TimerLogic</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

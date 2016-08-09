@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.WPF", "GW2Hel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.TimerLogic", "TimerLogic\GW2MiniHelper.TimerLogic.csproj", "{3F724D98-CDB9-40BB-A423-84890824339D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.TimerLogicTests", "GW2Helper.TimerLogicTests\GW2MiniHelper.TimerLogicTests.csproj", "{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.UnitTests", "GW2Helper.TimerLogicTests\GW2MiniHelper.UnitTests.csproj", "{52D0D92E-A310-4D03-8E2C-EE0FC25ACFB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GW2MiniHelper.ButtonLogic", "GW2Helper.ButtonLogic\GW2MiniHelper.ButtonLogic.csproj", "{11702108-6656-4938-AD04-324040981DF3}"
 EndProject

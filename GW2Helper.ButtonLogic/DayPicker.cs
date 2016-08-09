@@ -1,28 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GW2Helper.ButtonLogic
 {
     public class DayPicker
     {
-        PactSupply supplyDB;
+        private readonly PactSupply _supplyDb;
 
         public DayPicker()
         {
-            supplyDB=new PactSupply();
+            _supplyDb = new PactSupply();
         }
 
-        public String PickPasteForDay()
+        public string PickPasteForDay()
         {
-            return supplyDB.GetPaste(ReturnToday());
+            return _supplyDb.GetPaste(ReturnToday());
         }
 
         public int ReturnToday()
         {
-            int today = (int)DateTime.UtcNow.DayOfWeek;
+            var today = (int) DateTime.UtcNow.DayOfWeek;
             if (DateTime.UtcNow.Hour <= 8) today--;
             if (today == -1) today = 6;
 
