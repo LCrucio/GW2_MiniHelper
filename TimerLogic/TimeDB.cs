@@ -38,6 +38,8 @@ namespace TimerLogic
                     (entry.Subtract(now) >= new TimeSpan(0, 0, 0) ||
                      Math.Abs(entry.Subtract(now).TotalMilliseconds) <= GetDuration(type).TotalMilliseconds))
                 {
+                    if(type==Gw2Events.Tequatl)Console.WriteLine("Teraz:" + now);
+                    if (type == Gw2Events.Tequatl) Console.WriteLine(entry);
                     lowest = entry;
                 }
             }
@@ -82,6 +84,8 @@ namespace TimerLogic
             list.Add(spawn5);
             var spawn6 = new TimeSpan(19, 0, 0);
             list.Add(spawn6);
+            var spawn7 = new TimeSpan(0, 0, 0);
+            list.Add(spawn7);
             dict.Add(type, list);
         }
 
